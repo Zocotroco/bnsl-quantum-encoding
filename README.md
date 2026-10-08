@@ -32,14 +32,17 @@ Fracción de los `n!` órdenes que alcanzan la puntuación óptima:
 
 | Red | n | % órdenes óptimos | Éxito del azar (1 024 muestras) |
 |---|---|---|---|
-| Cancer | 5 | **50,0 %** | 100 % |
-| Survey | 6 | **66,7 %** | 100 % |
-| Asia | 8 | 1,15 % | 100 % |
-| capas10 | 10 | **0,007 %** | 7 % |
+| Cancer | 5 | 50,0 % / 3,3 % | **100 %** |
+| Survey | 6 | 66,7 % / 0,6 % | **100 %** |
+| Asia | 8 | 1,15 % | **100 %** |
+| capas10 | 10 | **0,007 %** | **7 %** |
 
-En *Cancer* la mitad de los órdenes son óptimos: una sola muestra al azar
-resuelve la instancia con probabilidad 1/2. El criterio que gobierna la
-dificultad es el número de **extensiones lineales** del grafo generador.
+La fracción de órdenes óptimos depende del tamaño muestral (segundo valor: con
+5 000 muestras o más). Lo que no depende de él es la última columna: en las tres
+primeras redes el muestreo de 1 024 órdenes válidos al azar encuentra el óptimo
+**siempre**, con cualquier tamaño entre 1 000 y 50 000. No hay búsqueda que
+hacer. El criterio que gobierna la dificultad es el número de **extensiones
+lineales** del grafo generador.
 
 ## Coste en qubits
 
