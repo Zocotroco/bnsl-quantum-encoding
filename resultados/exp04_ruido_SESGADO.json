@@ -1,0 +1,384 @@
+{
+  "red": "toy4",
+  "profundidad": 2,
+  "shots": 256,
+  "semillas": [
+    0,
+    1,
+    2
+  ],
+  "omegas": [
+    0.0,
+    0.0001,
+    0.0003,
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1
+  ],
+  "qubits_ordenes": 6,
+  "qubits_adyacencia": 18,
+  "puertas_ordenes": {
+    "1q": 42,
+    "2q": 48,
+    "profundidad": 64
+  },
+  "puertas_adyacencia": {
+    "1q": 150,
+    "2q": 144,
+    "profundidad": 76
+  },
+  "arcos_optimos": [
+    [
+      "A",
+      "C"
+    ],
+    [
+      "B",
+      "C"
+    ],
+    [
+      "C",
+      "D"
+    ]
+  ],
+  "resultados": [
+    {
+      "codificacion": "órdenes",
+      "canal": "amplitude_damping",
+      "omega": 0.0,
+      "fraccion_factible": 0.90234375,
+      "prob_optimo": 0.0859375
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "amplitude_damping",
+      "omega": 0.0001,
+      "fraccion_factible": 0.9231770833333334,
+      "prob_optimo": 0.078125
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "amplitude_damping",
+      "omega": 0.0003,
+      "fraccion_factible": 0.9192708333333334,
+      "prob_optimo": 0.078125
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "amplitude_damping",
+      "omega": 0.001,
+      "fraccion_factible": 0.9153645833333334,
+      "prob_optimo": 0.078125
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "amplitude_damping",
+      "omega": 0.003,
+      "fraccion_factible": 0.9153645833333334,
+      "prob_optimo": 0.08203125
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "amplitude_damping",
+      "omega": 0.01,
+      "fraccion_factible": 0.8528645833333334,
+      "prob_optimo": 0.07421875
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "amplitude_damping",
+      "omega": 0.03,
+      "fraccion_factible": 0.7265625,
+      "prob_optimo": 0.05078125
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "amplitude_damping",
+      "omega": 0.1,
+      "fraccion_factible": 0.625,
+      "prob_optimo": 0.01953125
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "phase_damping",
+      "omega": 0.0,
+      "fraccion_factible": 0.90234375,
+      "prob_optimo": 0.0859375
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "phase_damping",
+      "omega": 0.0001,
+      "fraccion_factible": 0.9231770833333334,
+      "prob_optimo": 0.078125
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "phase_damping",
+      "omega": 0.0003,
+      "fraccion_factible": 0.9192708333333334,
+      "prob_optimo": 0.078125
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "phase_damping",
+      "omega": 0.001,
+      "fraccion_factible": 0.9192708333333334,
+      "prob_optimo": 0.078125
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "phase_damping",
+      "omega": 0.003,
+      "fraccion_factible": 0.9153645833333334,
+      "prob_optimo": 0.08203125
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "phase_damping",
+      "omega": 0.01,
+      "fraccion_factible": 0.8958333333333334,
+      "prob_optimo": 0.078125
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "phase_damping",
+      "omega": 0.03,
+      "fraccion_factible": 0.8359375,
+      "prob_optimo": 0.07421875
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "phase_damping",
+      "omega": 0.1,
+      "fraccion_factible": 0.6861979166666666,
+      "prob_optimo": 0.05078125
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "depolarizing",
+      "omega": 0.0,
+      "fraccion_factible": 0.90234375,
+      "prob_optimo": 0.0859375
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "depolarizing",
+      "omega": 0.0001,
+      "fraccion_factible": 0.90234375,
+      "prob_optimo": 0.0859375
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "depolarizing",
+      "omega": 0.0003,
+      "fraccion_factible": 0.90234375,
+      "prob_optimo": 0.0859375
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "depolarizing",
+      "omega": 0.001,
+      "fraccion_factible": 0.89453125,
+      "prob_optimo": 0.0859375
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "depolarizing",
+      "omega": 0.003,
+      "fraccion_factible": 0.85546875,
+      "prob_optimo": 0.09375
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "depolarizing",
+      "omega": 0.01,
+      "fraccion_factible": 0.7213541666666666,
+      "prob_optimo": 0.07421875
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "depolarizing",
+      "omega": 0.03,
+      "fraccion_factible": 0.5768229166666666,
+      "prob_optimo": 0.046875
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "depolarizing",
+      "omega": 0.1,
+      "fraccion_factible": 0.34375,
+      "prob_optimo": 0.02734375
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "amplitude_damping",
+      "omega": 0.0,
+      "fraccion_factible": 0.26953125,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "amplitude_damping",
+      "omega": 0.0001,
+      "fraccion_factible": 0.20703125,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "amplitude_damping",
+      "omega": 0.0003,
+      "fraccion_factible": 0.20703125,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "amplitude_damping",
+      "omega": 0.001,
+      "fraccion_factible": 0.21875,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "amplitude_damping",
+      "omega": 0.003,
+      "fraccion_factible": 0.20703125,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "amplitude_damping",
+      "omega": 0.01,
+      "fraccion_factible": 0.21484375,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "amplitude_damping",
+      "omega": 0.03,
+      "fraccion_factible": 0.23828125,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "amplitude_damping",
+      "omega": 0.1,
+      "fraccion_factible": 0.375,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "phase_damping",
+      "omega": 0.0,
+      "fraccion_factible": 0.26953125,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "phase_damping",
+      "omega": 0.0001,
+      "fraccion_factible": 0.20703125,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "phase_damping",
+      "omega": 0.0003,
+      "fraccion_factible": 0.20703125,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "phase_damping",
+      "omega": 0.001,
+      "fraccion_factible": 0.20703125,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "phase_damping",
+      "omega": 0.003,
+      "fraccion_factible": 0.20703125,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "phase_damping",
+      "omega": 0.01,
+      "fraccion_factible": 0.19921875,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "phase_damping",
+      "omega": 0.03,
+      "fraccion_factible": 0.21875,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "phase_damping",
+      "omega": 0.1,
+      "fraccion_factible": 0.19921875,
+      "prob_optimo": 0.00390625
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "depolarizing",
+      "omega": 0.0,
+      "fraccion_factible": 0.26953125,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "depolarizing",
+      "omega": 0.0001,
+      "fraccion_factible": 0.265625,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "depolarizing",
+      "omega": 0.0003,
+      "fraccion_factible": 0.265625,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "depolarizing",
+      "omega": 0.001,
+      "fraccion_factible": 0.265625,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "depolarizing",
+      "omega": 0.003,
+      "fraccion_factible": 0.2565104166666667,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "depolarizing",
+      "omega": 0.01,
+      "fraccion_factible": 0.2526041666666667,
+      "prob_optimo": 0.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "depolarizing",
+      "omega": 0.03,
+      "fraccion_factible": 0.1875,
+      "prob_optimo": 0.00390625
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "depolarizing",
+      "omega": 0.1,
+      "fraccion_factible": 0.12890625,
+      "prob_optimo": 0.0
+    }
+  ]
+}

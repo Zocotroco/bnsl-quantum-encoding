@@ -1,0 +1,9 @@
+red cancer: óptimo E0 = 4197.4550
+
+variante                          qubits  términos   éxitos   gap medio  factible    seg
+------------------------------------------------------------------------------------------
+validez (QAOA sobre H_trans)           8         4   5/5         0.0000     54.1%      4
+nada (hardware-efficient)              8         4   5/5         0.0000     55.5%      6
+todo (QAOA pleno)                     24        86   5/5         0.0000      0.5%    613
+
+resultados en ./resultados/exp10_tres_ansatze.json

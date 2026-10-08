@@ -1,0 +1,59 @@
+toy4: óptimo exacto = [('A', 'C'), ('B', 'C'), ('C', 'D')]
+
+parámetros óptimos hallados sin ruido:
+  adyacencia (O'Gorman)  gap=3.4646  {'1q': 150, '2q': 144, 'profundidad': 76}
+  órdenes                gap=0.0000  {'1q': 42, '2q': 48, 'profundidad': 64}
+
+midiendo degradación (los parámetros ya no cambian)...
+
+  órdenes      amplitude_damping  ω=0       factible= 90.2%  óptimo=  8.6%
+  órdenes      amplitude_damping  ω=0.0001  factible= 92.3%  óptimo=  7.8%
+  órdenes      amplitude_damping  ω=0.0003  factible= 91.9%  óptimo=  7.8%
+  órdenes      amplitude_damping  ω=0.001   factible= 91.5%  óptimo=  7.8%
+  órdenes      amplitude_damping  ω=0.003   factible= 91.5%  óptimo=  8.2%
+  órdenes      amplitude_damping  ω=0.01    factible= 85.3%  óptimo=  7.4%
+  órdenes      amplitude_damping  ω=0.03    factible= 72.7%  óptimo=  5.1%
+  órdenes      amplitude_damping  ω=0.1     factible= 62.5%  óptimo=  2.0%
+  órdenes      phase_damping      ω=0       factible= 90.2%  óptimo=  8.6%
+  órdenes      phase_damping      ω=0.0001  factible= 92.3%  óptimo=  7.8%
+  órdenes      phase_damping      ω=0.0003  factible= 91.9%  óptimo=  7.8%
+  órdenes      phase_damping      ω=0.001   factible= 91.9%  óptimo=  7.8%
+  órdenes      phase_damping      ω=0.003   factible= 91.5%  óptimo=  8.2%
+  órdenes      phase_damping      ω=0.01    factible= 89.6%  óptimo=  7.8%
+  órdenes      phase_damping      ω=0.03    factible= 83.6%  óptimo=  7.4%
+  órdenes      phase_damping      ω=0.1     factible= 68.6%  óptimo=  5.1%
+  órdenes      depolarizing       ω=0       factible= 90.2%  óptimo=  8.6%
+  órdenes      depolarizing       ω=0.0001  factible= 90.2%  óptimo=  8.6%
+  órdenes      depolarizing       ω=0.0003  factible= 90.2%  óptimo=  8.6%
+  órdenes      depolarizing       ω=0.001   factible= 89.5%  óptimo=  8.6%
+  órdenes      depolarizing       ω=0.003   factible= 85.5%  óptimo=  9.4%
+  órdenes      depolarizing       ω=0.01    factible= 72.1%  óptimo=  7.4%
+  órdenes      depolarizing       ω=0.03    factible= 57.7%  óptimo=  4.7%
+  órdenes      depolarizing       ω=0.1     factible= 34.4%  óptimo=  2.7%
+
+  adyacencia   amplitude_damping  ω=0       factible= 27.0%  óptimo=  0.0%
+  adyacencia   amplitude_damping  ω=0.0001  factible= 20.7%  óptimo=  0.0%
+  adyacencia   amplitude_damping  ω=0.0003  factible= 20.7%  óptimo=  0.0%
+  adyacencia   amplitude_damping  ω=0.001   factible= 21.9%  óptimo=  0.0%
+  adyacencia   amplitude_damping  ω=0.003   factible= 20.7%  óptimo=  0.0%
+  adyacencia   amplitude_damping  ω=0.01    factible= 21.5%  óptimo=  0.0%
+  adyacencia   amplitude_damping  ω=0.03    factible= 23.8%  óptimo=  0.0%
+  adyacencia   amplitude_damping  ω=0.1     factible= 37.5%  óptimo=  0.0%
+  adyacencia   phase_damping      ω=0       factible= 27.0%  óptimo=  0.0%
+  adyacencia   phase_damping      ω=0.0001  factible= 20.7%  óptimo=  0.0%
+  adyacencia   phase_damping      ω=0.0003  factible= 20.7%  óptimo=  0.0%
+  adyacencia   phase_damping      ω=0.001   factible= 20.7%  óptimo=  0.0%
+  adyacencia   phase_damping      ω=0.003   factible= 20.7%  óptimo=  0.0%
+  adyacencia   phase_damping      ω=0.01    factible= 19.9%  óptimo=  0.0%
+  adyacencia   phase_damping      ω=0.03    factible= 21.9%  óptimo=  0.0%
+  adyacencia   phase_damping      ω=0.1     factible= 19.9%  óptimo=  0.4%
+  adyacencia   depolarizing       ω=0       factible= 27.0%  óptimo=  0.0%
+  adyacencia   depolarizing       ω=0.0001  factible= 26.6%  óptimo=  0.0%
+  adyacencia   depolarizing       ω=0.0003  factible= 26.6%  óptimo=  0.0%
+  adyacencia   depolarizing       ω=0.001   factible= 26.6%  óptimo=  0.0%
+  adyacencia   depolarizing       ω=0.003   factible= 25.7%  óptimo=  0.0%
+  adyacencia   depolarizing       ω=0.01    factible= 25.3%  óptimo=  0.0%
+  adyacencia   depolarizing       ω=0.03    factible= 18.8%  óptimo=  0.4%
+  adyacencia   depolarizing       ω=0.1     factible= 12.9%  óptimo=  0.0%
+
+completado en 6016 s; resultados en ./resultados/exp04_ruido.json

@@ -1,0 +1,26 @@
+{
+  "asia_factorial": {
+    "params": [
+      0.8135516831123087,
+      2.668234296667953
+    ],
+    "sim_factible": 0.80859375,
+    "sim_gap": 0.0
+  },
+  "capas10_factorial": {
+    "params": [
+      1.069947402779488,
+      2.7043721298010666
+    ],
+    "sim_factible": 0.7529296875,
+    "sim_gap": 0.0
+  },
+  "asia_torneo": {
+    "params": [
+      1.0,
+      0.8
+    ],
+    "sim_factible": null,
+    "sim_gap": null
+  }
+}

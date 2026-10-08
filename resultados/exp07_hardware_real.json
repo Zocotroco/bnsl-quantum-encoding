@@ -1,0 +1,158 @@
+{
+  "backend": "ibm_marrakesh",
+  "disparos": {
+    "asia_factorial": 4096,
+    "capas10_factorial": 4096,
+    "asia_torneo": 2048
+  },
+  "qpu_segundos": 11.351094956,
+  "resultados": {
+    "asia_factorial": {
+      "disparos": 4096,
+      "fraccion_factible": 0.75390625,
+      "gap": 0.0,
+      "shd": 2,
+      "arcos": [
+        [
+          "bronc",
+          "dysp"
+        ],
+        [
+          "either",
+          "dysp"
+        ],
+        [
+          "either",
+          "xray"
+        ],
+        [
+          "lung",
+          "either"
+        ],
+        [
+          "lung",
+          "smoke"
+        ],
+        [
+          "smoke",
+          "bronc"
+        ],
+        [
+          "tub",
+          "asia"
+        ],
+        [
+          "tub",
+          "either"
+        ]
+      ],
+      "qubits": 156,
+      "profundidad": 49,
+      "puertas_2q": 28,
+      "segundos": 111.82977676391602,
+      "sim_factible": 0.80859375,
+      "sim_gap": 0.0
+    },
+    "capas10_factorial": {
+      "disparos": 4096,
+      "fraccion_factible": 0.72265625,
+      "gap": 4.8400398049125215,
+      "shd": 2,
+      "arcos": [
+        [
+          "A",
+          "E"
+        ],
+        [
+          "B",
+          "E"
+        ],
+        [
+          "C",
+          "B"
+        ],
+        [
+          "C",
+          "F"
+        ],
+        [
+          "D",
+          "H"
+        ],
+        [
+          "E",
+          "G"
+        ],
+        [
+          "F",
+          "B"
+        ],
+        [
+          "F",
+          "G"
+        ],
+        [
+          "F",
+          "H"
+        ],
+        [
+          "G",
+          "I"
+        ],
+        [
+          "H",
+          "I"
+        ],
+        [
+          "I",
+          "J"
+        ]
+      ],
+      "qubits": 156,
+      "profundidad": 105,
+      "puertas_2q": 67,
+      "segundos": 30.416443824768066,
+      "sim_factible": 0.7529296875,
+      "sim_gap": 0.0
+    },
+    "asia_torneo": {
+      "disparos": 2048,
+      "fraccion_factible": 0.0,
+      "gap": null,
+      "shd": null,
+      "arcos": [],
+      "qubits": 156,
+      "profundidad": 911,
+      "puertas_2q": 1001,
+      "segundos": 63.705435037612915,
+      "sim_factible": null,
+      "sim_gap": null
+    }
+  },
+  "replicacion": {
+    "copias": 4,
+    "qpu_segundos": 2.68105365,
+    "por_copia": [
+      {
+        "copia": 0,
+        "fraccion_factible": 0.743896484375,
+        "gap": 0.0
+      },
+      {
+        "copia": 1,
+        "fraccion_factible": 0.726318359375,
+        "gap": 0.0
+      },
+      {
+        "copia": 2,
+        "fraccion_factible": 0.69384765625,
+        "gap": 1.4551915228366852e-11
+      },
+      {
+        "copia": 3,
+        "fraccion_factible": 0.67578125,
+        "gap": 0.0
+      }
+    ]
+  }
+}

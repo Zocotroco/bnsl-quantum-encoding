@@ -1,0 +1,9 @@
+=== preparación en simulación (sin coste de QPU) ===
+  (reutilizando parámetros de exp07_parametros.json)
+  asia_factorial       en caché: factible=80.9%
+  capas10_factorial    en caché: factible=75.3%
+  asia_torneo          en caché: factible=n/d
+
+=== SIMULACRO sobre topología de fake_torino (sin coste) ===
+
+  asia_factorial: 133 qubits usados, profundidad 49, 28 puertas de dos cúbits

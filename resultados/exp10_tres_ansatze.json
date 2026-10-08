@@ -1,0 +1,36 @@
+{
+  "red": "cancer",
+  "energia_optima": 4197.454970367931,
+  "resultados": [
+    {
+      "variante": "validez (QAOA sobre H_trans)",
+      "qubits": 8,
+      "terminos_circuito": 4,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "gap_medio": 0.0,
+      "fraccion_factible": 0.541015625,
+      "segundos": 4.119412899017334
+    },
+    {
+      "variante": "nada (hardware-efficient)",
+      "qubits": 8,
+      "terminos_circuito": 4,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "gap_medio": 0.0,
+      "fraccion_factible": 0.5552734375,
+      "segundos": 5.572306871414185
+    },
+    {
+      "variante": "todo (QAOA pleno)",
+      "qubits": 24,
+      "terminos_circuito": 86,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "gap_medio": 1.2732925824820995e-12,
+      "fraccion_factible": 0.0046875,
+      "segundos": 613.430055141449
+    }
+  ]
+}

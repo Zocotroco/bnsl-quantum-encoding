@@ -1,0 +1,1019 @@
+{
+  "red": "survey",
+  "n_muestras": 20000,
+  "puntuacion": "bic",
+  "max_padres": 2,
+  "qubits": 15,
+  "qubits_ogorman": 45,
+  "shots": 512,
+  "maxiter": 150,
+  "semillas": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "energia_optima": 79206.29737820028,
+  "arcos_optimos": [
+    [
+      "Age",
+      "Education"
+    ],
+    [
+      "Education",
+      "Occupation"
+    ],
+    [
+      "Education",
+      "Residence"
+    ],
+    [
+      "Occupation",
+      "Travel"
+    ],
+    [
+      "Residence",
+      "Travel"
+    ],
+    [
+      "Sex",
+      "Education"
+    ]
+  ],
+  "fraccion_factible_uniforme": 0.02197265625,
+  "resultados": [
+    {
+      "ansatz": "qaoa",
+      "profundidad": 1,
+      "alpha": 0.1,
+      "gap": 0.0,
+      "shd": 0,
+      "fraccion_factible_inicial": 0.111328125,
+      "fraccion_factible_final": 0.28125,
+      "evaluaciones_medias": 25,
+      "segundos": 0.8334219455718994,
+      "exitos": 3,
+      "ejecuciones": 5,
+      "orden": [
+        "Sex",
+        "Age",
+        "Education",
+        "Residence",
+        "Occupation",
+        "Travel"
+      ],
+      "arcos": [
+        [
+          "Age",
+          "Education"
+        ],
+        [
+          "Education",
+          "Occupation"
+        ],
+        [
+          "Education",
+          "Residence"
+        ],
+        [
+          "Occupation",
+          "Travel"
+        ],
+        [
+          "Residence",
+          "Travel"
+        ],
+        [
+          "Sex",
+          "Education"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 15,
+        "parametros": 2,
+        "profundidad": 75,
+        "puertas_2q": 120,
+        "puertas_totales": 227
+      }
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 1,
+      "alpha": 0.25,
+      "gap": 0.0,
+      "shd": 0,
+      "fraccion_factible_inicial": 0.111328125,
+      "fraccion_factible_final": 0.37734375,
+      "evaluaciones_medias": 30,
+      "segundos": 1.122025966644287,
+      "exitos": 3,
+      "ejecuciones": 5,
+      "orden": [
+        "Sex",
+        "Age",
+        "Education",
+        "Residence",
+        "Occupation",
+        "Travel"
+      ],
+      "arcos": [
+        [
+          "Age",
+          "Education"
+        ],
+        [
+          "Education",
+          "Occupation"
+        ],
+        [
+          "Education",
+          "Residence"
+        ],
+        [
+          "Occupation",
+          "Travel"
+        ],
+        [
+          "Residence",
+          "Travel"
+        ],
+        [
+          "Sex",
+          "Education"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 15,
+        "parametros": 2,
+        "profundidad": 75,
+        "puertas_2q": 120,
+        "puertas_totales": 227
+      }
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 1,
+      "alpha": 1.0,
+      "gap": 0.0,
+      "shd": 0,
+      "fraccion_factible_inicial": 0.111328125,
+      "fraccion_factible_final": 0.5296875,
+      "evaluaciones_medias": 29,
+      "segundos": 1.013951063156128,
+      "exitos": 4,
+      "ejecuciones": 5,
+      "orden": [
+        "Sex",
+        "Age",
+        "Education",
+        "Residence",
+        "Occupation",
+        "Travel"
+      ],
+      "arcos": [
+        [
+          "Age",
+          "Education"
+        ],
+        [
+          "Education",
+          "Occupation"
+        ],
+        [
+          "Education",
+          "Residence"
+        ],
+        [
+          "Occupation",
+          "Travel"
+        ],
+        [
+          "Residence",
+          "Travel"
+        ],
+        [
+          "Sex",
+          "Education"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 15,
+        "parametros": 2,
+        "profundidad": 75,
+        "puertas_2q": 120,
+        "puertas_totales": 227
+      }
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 2,
+      "alpha": 0.1,
+      "gap": 0.0,
+      "shd": 0,
+      "fraccion_factible_inicial": 0.0140625,
+      "fraccion_factible_final": 0.31015625,
+      "evaluaciones_medias": 38,
+      "segundos": 2.0041372776031494,
+      "exitos": 3,
+      "ejecuciones": 5,
+      "orden": [
+        "Sex",
+        "Age",
+        "Education",
+        "Residence",
+        "Occupation",
+        "Travel"
+      ],
+      "arcos": [
+        [
+          "Age",
+          "Education"
+        ],
+        [
+          "Education",
+          "Occupation"
+        ],
+        [
+          "Education",
+          "Residence"
+        ],
+        [
+          "Occupation",
+          "Travel"
+        ],
+        [
+          "Residence",
+          "Travel"
+        ],
+        [
+          "Sex",
+          "Education"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 15,
+        "parametros": 4,
+        "profundidad": 148,
+        "puertas_2q": 240,
+        "puertas_totales": 424
+      }
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 2,
+      "alpha": 0.25,
+      "gap": 0.0,
+      "shd": 0,
+      "fraccion_factible_inicial": 0.0140625,
+      "fraccion_factible_final": 0.530859375,
+      "evaluaciones_medias": 41,
+      "segundos": 3.0621979236602783,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Sex",
+        "Age",
+        "Education",
+        "Residence",
+        "Occupation",
+        "Travel"
+      ],
+      "arcos": [
+        [
+          "Age",
+          "Education"
+        ],
+        [
+          "Education",
+          "Occupation"
+        ],
+        [
+          "Education",
+          "Residence"
+        ],
+        [
+          "Occupation",
+          "Travel"
+        ],
+        [
+          "Residence",
+          "Travel"
+        ],
+        [
+          "Sex",
+          "Education"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 15,
+        "parametros": 4,
+        "profundidad": 148,
+        "puertas_2q": 240,
+        "puertas_totales": 424
+      }
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 2,
+      "alpha": 1.0,
+      "gap": 0.0,
+      "shd": 0,
+      "fraccion_factible_inicial": 0.0140625,
+      "fraccion_factible_final": 0.6859375,
+      "evaluaciones_medias": 47,
+      "segundos": 4.347017288208008,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Sex",
+        "Age",
+        "Education",
+        "Residence",
+        "Occupation",
+        "Travel"
+      ],
+      "arcos": [
+        [
+          "Age",
+          "Education"
+        ],
+        [
+          "Education",
+          "Occupation"
+        ],
+        [
+          "Education",
+          "Residence"
+        ],
+        [
+          "Occupation",
+          "Travel"
+        ],
+        [
+          "Residence",
+          "Travel"
+        ],
+        [
+          "Sex",
+          "Education"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 15,
+        "parametros": 4,
+        "profundidad": 148,
+        "puertas_2q": 240,
+        "puertas_totales": 424
+      }
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 4,
+      "alpha": 0.1,
+      "gap": 0.0,
+      "shd": 0,
+      "fraccion_factible_inicial": 0.065234375,
+      "fraccion_factible_final": 0.4359375,
+      "evaluaciones_medias": 66,
+      "segundos": 10.222611904144287,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Sex",
+        "Age",
+        "Education",
+        "Residence",
+        "Occupation",
+        "Travel"
+      ],
+      "arcos": [
+        [
+          "Age",
+          "Education"
+        ],
+        [
+          "Education",
+          "Occupation"
+        ],
+        [
+          "Education",
+          "Residence"
+        ],
+        [
+          "Occupation",
+          "Travel"
+        ],
+        [
+          "Residence",
+          "Travel"
+        ],
+        [
+          "Sex",
+          "Education"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 15,
+        "parametros": 8,
+        "profundidad": 294,
+        "puertas_2q": 480,
+        "puertas_totales": 818
+      }
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 4,
+      "alpha": 0.25,
+      "gap": 0.0,
+      "shd": 0,
+      "fraccion_factible_inicial": 0.065234375,
+      "fraccion_factible_final": 0.39453125,
+      "evaluaciones_medias": 67,
+      "segundos": 6.573855876922607,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Sex",
+        "Age",
+        "Education",
+        "Residence",
+        "Occupation",
+        "Travel"
+      ],
+      "arcos": [
+        [
+          "Age",
+          "Education"
+        ],
+        [
+          "Education",
+          "Occupation"
+        ],
+        [
+          "Education",
+          "Residence"
+        ],
+        [
+          "Occupation",
+          "Travel"
+        ],
+        [
+          "Residence",
+          "Travel"
+        ],
+        [
+          "Sex",
+          "Education"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 15,
+        "parametros": 8,
+        "profundidad": 294,
+        "puertas_2q": 480,
+        "puertas_totales": 818
+      }
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 4,
+      "alpha": 1.0,
+      "gap": 0.0,
+      "shd": 0,
+      "fraccion_factible_inicial": 0.065234375,
+      "fraccion_factible_final": 0.416015625,
+      "evaluaciones_medias": 79,
+      "segundos": 11.997155666351318,
+      "exitos": 4,
+      "ejecuciones": 5,
+      "orden": [
+        "Sex",
+        "Age",
+        "Education",
+        "Residence",
+        "Occupation",
+        "Travel"
+      ],
+      "arcos": [
+        [
+          "Age",
+          "Education"
+        ],
+        [
+          "Education",
+          "Occupation"
+        ],
+        [
+          "Education",
+          "Residence"
+        ],
+        [
+          "Occupation",
+          "Travel"
+        ],
+        [
+          "Residence",
+          "Travel"
+        ],
+        [
+          "Sex",
+          "Education"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 15,
+        "parametros": 8,
+        "profundidad": 294,
+        "puertas_2q": 480,
+        "puertas_totales": 818
+      }
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 1,
+      "alpha": 0.1,
+      "gap": 0.0,
+      "shd": 0,
+      "fraccion_factible_inicial": 0.04765625,
+      "fraccion_factible_final": 0.27890625,
+      "evaluaciones_medias": 150,
+      "segundos": 3.234529972076416,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Age",
+        "Sex",
+        "Education",
+        "Residence",
+        "Occupation",
+        "Travel"
+      ],
+      "arcos": [
+        [
+          "Age",
+          "Education"
+        ],
+        [
+          "Education",
+          "Occupation"
+        ],
+        [
+          "Education",
+          "Residence"
+        ],
+        [
+          "Occupation",
+          "Travel"
+        ],
+        [
+          "Residence",
+          "Travel"
+        ],
+        [
+          "Sex",
+          "Education"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 15,
+        "parametros": 30,
+        "profundidad": 18,
+        "puertas_2q": 15,
+        "puertas_totales": 61
+      }
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 1,
+      "alpha": 0.25,
+      "gap": 0.0,
+      "shd": 0,
+      "fraccion_factible_inicial": 0.04765625,
+      "fraccion_factible_final": 0.316015625,
+      "evaluaciones_medias": 150,
+      "segundos": 3.6907289028167725,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Age",
+        "Sex",
+        "Education",
+        "Residence",
+        "Occupation",
+        "Travel"
+      ],
+      "arcos": [
+        [
+          "Age",
+          "Education"
+        ],
+        [
+          "Education",
+          "Occupation"
+        ],
+        [
+          "Education",
+          "Residence"
+        ],
+        [
+          "Occupation",
+          "Travel"
+        ],
+        [
+          "Residence",
+          "Travel"
+        ],
+        [
+          "Sex",
+          "Education"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 15,
+        "parametros": 30,
+        "profundidad": 18,
+        "puertas_2q": 15,
+        "puertas_totales": 61
+      }
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 1,
+      "alpha": 1.0,
+      "gap": 0.0,
+      "shd": 0,
+      "fraccion_factible_inicial": 0.04765625,
+      "fraccion_factible_final": 0.56796875,
+      "evaluaciones_medias": 150,
+      "segundos": 2.9277617931365967,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Age",
+        "Sex",
+        "Education",
+        "Residence",
+        "Occupation",
+        "Travel"
+      ],
+      "arcos": [
+        [
+          "Age",
+          "Education"
+        ],
+        [
+          "Education",
+          "Occupation"
+        ],
+        [
+          "Education",
+          "Residence"
+        ],
+        [
+          "Occupation",
+          "Travel"
+        ],
+        [
+          "Residence",
+          "Travel"
+        ],
+        [
+          "Sex",
+          "Education"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 15,
+        "parametros": 30,
+        "profundidad": 18,
+        "puertas_2q": 15,
+        "puertas_totales": 61
+      }
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 2,
+      "alpha": 0.1,
+      "gap": 0.0,
+      "shd": 0,
+      "fraccion_factible_inicial": 0.0203125,
+      "fraccion_factible_final": 0.1921875,
+      "evaluaciones_medias": 150,
+      "segundos": 4.845692157745361,
+      "exitos": 4,
+      "ejecuciones": 5,
+      "orden": [
+        "Age",
+        "Sex",
+        "Education",
+        "Residence",
+        "Occupation",
+        "Travel"
+      ],
+      "arcos": [
+        [
+          "Age",
+          "Education"
+        ],
+        [
+          "Education",
+          "Occupation"
+        ],
+        [
+          "Education",
+          "Residence"
+        ],
+        [
+          "Occupation",
+          "Travel"
+        ],
+        [
+          "Residence",
+          "Travel"
+        ],
+        [
+          "Sex",
+          "Education"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 15,
+        "parametros": 45,
+        "profundidad": 34,
+        "puertas_2q": 30,
+        "puertas_totales": 92
+      }
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 2,
+      "alpha": 0.25,
+      "gap": 0.0,
+      "shd": 0,
+      "fraccion_factible_inicial": 0.0203125,
+      "fraccion_factible_final": 0.330859375,
+      "evaluaciones_medias": 150,
+      "segundos": 4.462923049926758,
+      "exitos": 3,
+      "ejecuciones": 5,
+      "orden": [
+        "Age",
+        "Sex",
+        "Education",
+        "Residence",
+        "Occupation",
+        "Travel"
+      ],
+      "arcos": [
+        [
+          "Age",
+          "Education"
+        ],
+        [
+          "Education",
+          "Occupation"
+        ],
+        [
+          "Education",
+          "Residence"
+        ],
+        [
+          "Occupation",
+          "Travel"
+        ],
+        [
+          "Residence",
+          "Travel"
+        ],
+        [
+          "Sex",
+          "Education"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 15,
+        "parametros": 45,
+        "profundidad": 34,
+        "puertas_2q": 30,
+        "puertas_totales": 92
+      }
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 2,
+      "alpha": 1.0,
+      "gap": 0.0,
+      "shd": 0,
+      "fraccion_factible_inicial": 0.0203125,
+      "fraccion_factible_final": 0.301953125,
+      "evaluaciones_medias": 150,
+      "segundos": 5.391782999038696,
+      "exitos": 2,
+      "ejecuciones": 5,
+      "orden": [
+        "Age",
+        "Sex",
+        "Education",
+        "Residence",
+        "Occupation",
+        "Travel"
+      ],
+      "arcos": [
+        [
+          "Age",
+          "Education"
+        ],
+        [
+          "Education",
+          "Occupation"
+        ],
+        [
+          "Education",
+          "Residence"
+        ],
+        [
+          "Occupation",
+          "Travel"
+        ],
+        [
+          "Residence",
+          "Travel"
+        ],
+        [
+          "Sex",
+          "Education"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 15,
+        "parametros": 45,
+        "profundidad": 34,
+        "puertas_2q": 30,
+        "puertas_totales": 92
+      }
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 4,
+      "alpha": 0.1,
+      "gap": 0.0,
+      "shd": 0,
+      "fraccion_factible_inicial": 0.01953125,
+      "fraccion_factible_final": 0.052734375,
+      "evaluaciones_medias": 150,
+      "segundos": 9.257764101028442,
+      "exitos": 3,
+      "ejecuciones": 5,
+      "orden": [
+        "Age",
+        "Sex",
+        "Education",
+        "Residence",
+        "Occupation",
+        "Travel"
+      ],
+      "arcos": [
+        [
+          "Age",
+          "Education"
+        ],
+        [
+          "Education",
+          "Occupation"
+        ],
+        [
+          "Education",
+          "Residence"
+        ],
+        [
+          "Occupation",
+          "Travel"
+        ],
+        [
+          "Residence",
+          "Travel"
+        ],
+        [
+          "Sex",
+          "Education"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 15,
+        "parametros": 75,
+        "profundidad": 66,
+        "puertas_2q": 60,
+        "puertas_totales": 154
+      }
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 4,
+      "alpha": 0.25,
+      "gap": 0.0,
+      "shd": 0,
+      "fraccion_factible_inicial": 0.01953125,
+      "fraccion_factible_final": 0.053515625,
+      "evaluaciones_medias": 150,
+      "segundos": 10.875095129013062,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Age",
+        "Sex",
+        "Education",
+        "Residence",
+        "Occupation",
+        "Travel"
+      ],
+      "arcos": [
+        [
+          "Age",
+          "Education"
+        ],
+        [
+          "Education",
+          "Occupation"
+        ],
+        [
+          "Education",
+          "Residence"
+        ],
+        [
+          "Occupation",
+          "Travel"
+        ],
+        [
+          "Residence",
+          "Travel"
+        ],
+        [
+          "Sex",
+          "Education"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 15,
+        "parametros": 75,
+        "profundidad": 66,
+        "puertas_2q": 60,
+        "puertas_totales": 154
+      }
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 4,
+      "alpha": 1.0,
+      "gap": 0.0,
+      "shd": 0,
+      "fraccion_factible_inicial": 0.01953125,
+      "fraccion_factible_final": 0.06328125,
+      "evaluaciones_medias": 150,
+      "segundos": 9.584251165390015,
+      "exitos": 4,
+      "ejecuciones": 5,
+      "orden": [
+        "Age",
+        "Sex",
+        "Education",
+        "Residence",
+        "Occupation",
+        "Travel"
+      ],
+      "arcos": [
+        [
+          "Age",
+          "Education"
+        ],
+        [
+          "Education",
+          "Occupation"
+        ],
+        [
+          "Education",
+          "Residence"
+        ],
+        [
+          "Occupation",
+          "Travel"
+        ],
+        [
+          "Residence",
+          "Travel"
+        ],
+        [
+          "Sex",
+          "Education"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 15,
+        "parametros": 75,
+        "profundidad": 66,
+        "puertas_2q": 60,
+        "puertas_totales": 154
+      }
+    }
+  ]
+}

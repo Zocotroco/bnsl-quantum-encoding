@@ -1,0 +1,764 @@
+{
+  "red": "asia",
+  "n_muestras": 50000,
+  "qubits": 28,
+  "qubits_ogorman": 84,
+  "shots": 1024,
+  "maxiter": 30,
+  "punto_caliente": [
+    1.0,
+    0.8
+  ],
+  "energia_optima": 111594.58926121553,
+  "arcos_optimos": [
+    [
+      "bronc",
+      "dysp"
+    ],
+    [
+      "either",
+      "dysp"
+    ],
+    [
+      "either",
+      "xray"
+    ],
+    [
+      "lung",
+      "either"
+    ],
+    [
+      "smoke",
+      "bronc"
+    ],
+    [
+      "smoke",
+      "lung"
+    ],
+    [
+      "tub",
+      "asia"
+    ],
+    [
+      "tub",
+      "either"
+    ]
+  ],
+  "shd_optimo": 1,
+  "clasicos": {
+    "hill climbing": {
+      "gap": 25.84671448188601,
+      "shd": 8
+    },
+    "tabú": {
+      "gap": 2.9103830456733704e-11,
+      "shd": 2
+    }
+  },
+  "control_azar": {
+    "exito": 0.0,
+    "fraccion_factible": 0.000146484375
+  },
+  "resultados": [
+    {
+      "ansatz": "qaoa",
+      "profundidad": 1,
+      "alpha": 0.25,
+      "semilla": 0,
+      "gap": 0.0,
+      "shd": 1,
+      "factible_inicial": 0.021484375,
+      "factible_final": 0.271484375,
+      "evaluaciones": 29,
+      "minutos": 51.52431748310725,
+      "orden": [
+        "tub",
+        "smoke",
+        "bronc",
+        "lung",
+        "either",
+        "dysp",
+        "xray",
+        "asia"
+      ],
+      "arcos": [
+        [
+          "bronc",
+          "dysp"
+        ],
+        [
+          "either",
+          "dysp"
+        ],
+        [
+          "either",
+          "xray"
+        ],
+        [
+          "lung",
+          "either"
+        ],
+        [
+          "smoke",
+          "bronc"
+        ],
+        [
+          "smoke",
+          "lung"
+        ],
+        [
+          "tub",
+          "asia"
+        ],
+        [
+          "tub",
+          "either"
+        ]
+      ]
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 1,
+      "alpha": 0.25,
+      "semilla": 1,
+      "gap": 1.4551915228366852e-11,
+      "shd": 1,
+      "factible_inicial": 0.0595703125,
+      "factible_final": 0.2265625,
+      "evaluaciones": 30,
+      "minutos": 50.26830731630325,
+      "orden": [
+        "lung",
+        "asia",
+        "smoke",
+        "bronc",
+        "tub",
+        "either",
+        "dysp",
+        "xray"
+      ],
+      "arcos": [
+        [
+          "asia",
+          "tub"
+        ],
+        [
+          "bronc",
+          "dysp"
+        ],
+        [
+          "either",
+          "dysp"
+        ],
+        [
+          "either",
+          "xray"
+        ],
+        [
+          "lung",
+          "either"
+        ],
+        [
+          "lung",
+          "smoke"
+        ],
+        [
+          "smoke",
+          "bronc"
+        ],
+        [
+          "tub",
+          "either"
+        ]
+      ]
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 1,
+      "alpha": 0.25,
+      "semilla": 2,
+      "gap": 0.0,
+      "shd": 1,
+      "factible_inicial": 0.0107421875,
+      "factible_final": 0.2451171875,
+      "evaluaciones": 30,
+      "minutos": 53.92890208562215,
+      "orden": [
+        "smoke",
+        "bronc",
+        "tub",
+        "lung",
+        "either",
+        "dysp",
+        "xray",
+        "asia"
+      ],
+      "arcos": [
+        [
+          "bronc",
+          "dysp"
+        ],
+        [
+          "either",
+          "dysp"
+        ],
+        [
+          "either",
+          "xray"
+        ],
+        [
+          "lung",
+          "either"
+        ],
+        [
+          "smoke",
+          "bronc"
+        ],
+        [
+          "smoke",
+          "lung"
+        ],
+        [
+          "tub",
+          "asia"
+        ],
+        [
+          "tub",
+          "either"
+        ]
+      ]
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 1,
+      "alpha": 1.0,
+      "semilla": 0,
+      "gap": 0.0,
+      "shd": 1,
+      "factible_inicial": 0.021484375,
+      "factible_final": 0.2294921875,
+      "evaluaciones": 30,
+      "minutos": 51.391893629233046,
+      "orden": [
+        "tub",
+        "smoke",
+        "bronc",
+        "lung",
+        "either",
+        "dysp",
+        "xray",
+        "asia"
+      ],
+      "arcos": [
+        [
+          "bronc",
+          "dysp"
+        ],
+        [
+          "either",
+          "dysp"
+        ],
+        [
+          "either",
+          "xray"
+        ],
+        [
+          "lung",
+          "either"
+        ],
+        [
+          "smoke",
+          "bronc"
+        ],
+        [
+          "smoke",
+          "lung"
+        ],
+        [
+          "tub",
+          "asia"
+        ],
+        [
+          "tub",
+          "either"
+        ]
+      ]
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 1,
+      "alpha": 1.0,
+      "semilla": 1,
+      "gap": 0.0,
+      "shd": 2,
+      "factible_inicial": 0.0595703125,
+      "factible_final": 0.24609375,
+      "evaluaciones": 30,
+      "minutos": 49.98760078350703,
+      "orden": [
+        "lung",
+        "tub",
+        "smoke",
+        "bronc",
+        "either",
+        "dysp",
+        "xray",
+        "asia"
+      ],
+      "arcos": [
+        [
+          "bronc",
+          "dysp"
+        ],
+        [
+          "either",
+          "dysp"
+        ],
+        [
+          "either",
+          "xray"
+        ],
+        [
+          "lung",
+          "either"
+        ],
+        [
+          "lung",
+          "smoke"
+        ],
+        [
+          "smoke",
+          "bronc"
+        ],
+        [
+          "tub",
+          "asia"
+        ],
+        [
+          "tub",
+          "either"
+        ]
+      ]
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 1,
+      "alpha": 1.0,
+      "semilla": 2,
+      "gap": 0.0,
+      "shd": 1,
+      "factible_inicial": 0.0107421875,
+      "factible_final": 0.2265625,
+      "evaluaciones": 30,
+      "minutos": 49.34870206514994,
+      "orden": [
+        "tub",
+        "smoke",
+        "bronc",
+        "lung",
+        "either",
+        "dysp",
+        "xray",
+        "asia"
+      ],
+      "arcos": [
+        [
+          "bronc",
+          "dysp"
+        ],
+        [
+          "either",
+          "dysp"
+        ],
+        [
+          "either",
+          "xray"
+        ],
+        [
+          "lung",
+          "either"
+        ],
+        [
+          "smoke",
+          "bronc"
+        ],
+        [
+          "smoke",
+          "lung"
+        ],
+        [
+          "tub",
+          "asia"
+        ],
+        [
+          "tub",
+          "either"
+        ]
+      ]
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 2,
+      "alpha": 0.25,
+      "semilla": 0,
+      "gap": 5.3502377657277975,
+      "shd": 5,
+      "factible_inicial": 0.0,
+      "factible_final": 0.0029296875,
+      "evaluaciones": 86,
+      "minutos": 87.79630323251088,
+      "orden": [
+        "either",
+        "lung",
+        "tub",
+        "smoke",
+        "xray",
+        "bronc",
+        "dysp",
+        "asia"
+      ],
+      "arcos": [
+        [
+          "bronc",
+          "dysp"
+        ],
+        [
+          "either",
+          "dysp"
+        ],
+        [
+          "either",
+          "lung"
+        ],
+        [
+          "either",
+          "tub"
+        ],
+        [
+          "either",
+          "xray"
+        ],
+        [
+          "lung",
+          "smoke"
+        ],
+        [
+          "lung",
+          "tub"
+        ],
+        [
+          "smoke",
+          "bronc"
+        ],
+        [
+          "tub",
+          "asia"
+        ]
+      ]
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 2,
+      "alpha": 0.25,
+      "semilla": 1,
+      "gap": 16.018023032404017,
+      "shd": 5,
+      "factible_inicial": 0.0,
+      "factible_final": 0.001953125,
+      "evaluaciones": 86,
+      "minutos": 75.93482545216878,
+      "orden": [
+        "either",
+        "smoke",
+        "bronc",
+        "dysp",
+        "lung",
+        "tub",
+        "xray",
+        "asia"
+      ],
+      "arcos": [
+        [
+          "bronc",
+          "dysp"
+        ],
+        [
+          "either",
+          "dysp"
+        ],
+        [
+          "either",
+          "lung"
+        ],
+        [
+          "either",
+          "smoke"
+        ],
+        [
+          "either",
+          "tub"
+        ],
+        [
+          "either",
+          "xray"
+        ],
+        [
+          "lung",
+          "tub"
+        ],
+        [
+          "smoke",
+          "bronc"
+        ],
+        [
+          "smoke",
+          "lung"
+        ],
+        [
+          "tub",
+          "asia"
+        ]
+      ]
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 2,
+      "alpha": 0.25,
+      "semilla": 2,
+      "gap": 20.597832995728822,
+      "shd": 7,
+      "factible_inicial": 0.0,
+      "factible_final": 0.0009765625,
+      "evaluaciones": 86,
+      "minutos": 74.22736041545868,
+      "orden": [
+        "lung",
+        "tub",
+        "bronc",
+        "smoke",
+        "xray",
+        "asia",
+        "either",
+        "dysp"
+      ],
+      "arcos": [
+        [
+          "bronc",
+          "dysp"
+        ],
+        [
+          "bronc",
+          "smoke"
+        ],
+        [
+          "either",
+          "dysp"
+        ],
+        [
+          "lung",
+          "bronc"
+        ],
+        [
+          "lung",
+          "either"
+        ],
+        [
+          "lung",
+          "smoke"
+        ],
+        [
+          "lung",
+          "xray"
+        ],
+        [
+          "tub",
+          "asia"
+        ],
+        [
+          "tub",
+          "either"
+        ],
+        [
+          "tub",
+          "xray"
+        ]
+      ]
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 2,
+      "alpha": 1.0,
+      "semilla": 0,
+      "gap": 24.171945744077675,
+      "shd": 6,
+      "factible_inicial": 0.0,
+      "factible_final": 0.0009765625,
+      "evaluaciones": 86,
+      "minutos": 72.38471828699112,
+      "orden": [
+        "lung",
+        "xray",
+        "smoke",
+        "either",
+        "bronc",
+        "asia",
+        "tub",
+        "dysp"
+      ],
+      "arcos": [
+        [
+          "bronc",
+          "dysp"
+        ],
+        [
+          "either",
+          "dysp"
+        ],
+        [
+          "either",
+          "tub"
+        ],
+        [
+          "lung",
+          "either"
+        ],
+        [
+          "lung",
+          "smoke"
+        ],
+        [
+          "lung",
+          "tub"
+        ],
+        [
+          "lung",
+          "xray"
+        ],
+        [
+          "smoke",
+          "bronc"
+        ],
+        [
+          "xray",
+          "either"
+        ]
+      ]
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 2,
+      "alpha": 1.0,
+      "semilla": 1,
+      "gap": 2.9103830456733704e-11,
+      "shd": 1,
+      "factible_inicial": 0.0,
+      "factible_final": 0.00390625,
+      "evaluaciones": 86,
+      "minutos": 72.27004183530808,
+      "orden": [
+        "lung",
+        "asia",
+        "tub",
+        "smoke",
+        "either",
+        "xray",
+        "bronc",
+        "dysp"
+      ],
+      "arcos": [
+        [
+          "asia",
+          "tub"
+        ],
+        [
+          "bronc",
+          "dysp"
+        ],
+        [
+          "either",
+          "dysp"
+        ],
+        [
+          "either",
+          "xray"
+        ],
+        [
+          "lung",
+          "either"
+        ],
+        [
+          "lung",
+          "smoke"
+        ],
+        [
+          "smoke",
+          "bronc"
+        ],
+        [
+          "tub",
+          "either"
+        ]
+      ]
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 2,
+      "alpha": 1.0,
+      "semilla": 2,
+      "gap": 10.800798377618776,
+      "shd": 4,
+      "factible_inicial": 0.0,
+      "factible_final": 0.0048828125,
+      "evaluaciones": 86,
+      "minutos": 70.64135306676229,
+      "orden": [
+        "tub",
+        "asia",
+        "lung",
+        "either",
+        "bronc",
+        "xray",
+        "dysp",
+        "smoke"
+      ],
+      "arcos": [
+        [
+          "bronc",
+          "dysp"
+        ],
+        [
+          "bronc",
+          "smoke"
+        ],
+        [
+          "either",
+          "dysp"
+        ],
+        [
+          "either",
+          "xray"
+        ],
+        [
+          "lung",
+          "bronc"
+        ],
+        [
+          "lung",
+          "either"
+        ],
+        [
+          "lung",
+          "smoke"
+        ],
+        [
+          "tub",
+          "asia"
+        ],
+        [
+          "tub",
+          "either"
+        ]
+      ]
+    }
+  ]
+}

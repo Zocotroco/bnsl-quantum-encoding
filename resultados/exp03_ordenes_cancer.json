@@ -1,0 +1,773 @@
+{
+  "red": "cancer",
+  "n_muestras": 2000,
+  "puntuacion": "bic",
+  "max_padres": 2,
+  "qubits": 10,
+  "qubits_ogorman": 30,
+  "shots": 512,
+  "maxiter": 150,
+  "semillas": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "energia_optima": 4197.454970367931,
+  "arcos_optimos": [
+    [
+      "Cancer",
+      "Dyspnoea"
+    ],
+    [
+      "Cancer",
+      "Xray"
+    ],
+    [
+      "Smoker",
+      "Cancer"
+    ]
+  ],
+  "fraccion_factible_uniforme": 0.1171875,
+  "resultados": [
+    {
+      "ansatz": "qaoa",
+      "profundidad": 1,
+      "alpha": 0.1,
+      "gap": 0.0,
+      "shd": 1,
+      "fraccion_factible_inicial": 0.21953125,
+      "fraccion_factible_final": 0.28515625,
+      "evaluaciones_medias": 15,
+      "segundos": 0.1611320972442627,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Smoker",
+        "Cancer",
+        "Dyspnoea",
+        "Pollution",
+        "Xray"
+      ],
+      "arcos": [
+        [
+          "Cancer",
+          "Dyspnoea"
+        ],
+        [
+          "Cancer",
+          "Xray"
+        ],
+        [
+          "Smoker",
+          "Cancer"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 10,
+        "parametros": 2,
+        "profundidad": 54,
+        "puertas_2q": 60,
+        "puertas_totales": 122
+      }
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 1,
+      "alpha": 0.25,
+      "gap": 0.0,
+      "shd": 1,
+      "fraccion_factible_inicial": 0.21953125,
+      "fraccion_factible_final": 0.606640625,
+      "evaluaciones_medias": 24,
+      "segundos": 0.2667710781097412,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Smoker",
+        "Cancer",
+        "Dyspnoea",
+        "Pollution",
+        "Xray"
+      ],
+      "arcos": [
+        [
+          "Cancer",
+          "Dyspnoea"
+        ],
+        [
+          "Cancer",
+          "Xray"
+        ],
+        [
+          "Smoker",
+          "Cancer"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 10,
+        "parametros": 2,
+        "profundidad": 54,
+        "puertas_2q": 60,
+        "puertas_totales": 122
+      }
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 1,
+      "alpha": 1.0,
+      "gap": 0.0,
+      "shd": 1,
+      "fraccion_factible_inicial": 0.21953125,
+      "fraccion_factible_final": 0.861328125,
+      "evaluaciones_medias": 31,
+      "segundos": 0.3118419647216797,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Smoker",
+        "Cancer",
+        "Dyspnoea",
+        "Pollution",
+        "Xray"
+      ],
+      "arcos": [
+        [
+          "Cancer",
+          "Dyspnoea"
+        ],
+        [
+          "Cancer",
+          "Xray"
+        ],
+        [
+          "Smoker",
+          "Cancer"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 10,
+        "parametros": 2,
+        "profundidad": 54,
+        "puertas_2q": 60,
+        "puertas_totales": 122
+      }
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 2,
+      "alpha": 0.1,
+      "gap": 0.0,
+      "shd": 1,
+      "fraccion_factible_inicial": 0.091796875,
+      "fraccion_factible_final": 0.38203125,
+      "evaluaciones_medias": 24,
+      "segundos": 0.46010875701904297,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Smoker",
+        "Cancer",
+        "Dyspnoea",
+        "Xray",
+        "Pollution"
+      ],
+      "arcos": [
+        [
+          "Cancer",
+          "Dyspnoea"
+        ],
+        [
+          "Cancer",
+          "Xray"
+        ],
+        [
+          "Smoker",
+          "Cancer"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 10,
+        "parametros": 4,
+        "profundidad": 106,
+        "puertas_2q": 120,
+        "puertas_totales": 224
+      }
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 2,
+      "alpha": 0.25,
+      "gap": 0.0,
+      "shd": 1,
+      "fraccion_factible_inicial": 0.091796875,
+      "fraccion_factible_final": 0.440234375,
+      "evaluaciones_medias": 37,
+      "segundos": 0.5709710121154785,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Smoker",
+        "Cancer",
+        "Dyspnoea",
+        "Xray",
+        "Pollution"
+      ],
+      "arcos": [
+        [
+          "Cancer",
+          "Dyspnoea"
+        ],
+        [
+          "Cancer",
+          "Xray"
+        ],
+        [
+          "Smoker",
+          "Cancer"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 10,
+        "parametros": 4,
+        "profundidad": 106,
+        "puertas_2q": 120,
+        "puertas_totales": 224
+      }
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 2,
+      "alpha": 1.0,
+      "gap": 0.0,
+      "shd": 1,
+      "fraccion_factible_inicial": 0.091796875,
+      "fraccion_factible_final": 0.75390625,
+      "evaluaciones_medias": 44,
+      "segundos": 0.6298391819000244,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Smoker",
+        "Cancer",
+        "Dyspnoea",
+        "Xray",
+        "Pollution"
+      ],
+      "arcos": [
+        [
+          "Cancer",
+          "Dyspnoea"
+        ],
+        [
+          "Cancer",
+          "Xray"
+        ],
+        [
+          "Smoker",
+          "Cancer"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 10,
+        "parametros": 4,
+        "profundidad": 106,
+        "puertas_2q": 120,
+        "puertas_totales": 224
+      }
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 4,
+      "alpha": 0.1,
+      "gap": 0.0,
+      "shd": 1,
+      "fraccion_factible_inicial": 0.200390625,
+      "fraccion_factible_final": 0.295703125,
+      "evaluaciones_medias": 44,
+      "segundos": 1.865586757659912,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Smoker",
+        "Cancer",
+        "Dyspnoea",
+        "Xray",
+        "Pollution"
+      ],
+      "arcos": [
+        [
+          "Cancer",
+          "Dyspnoea"
+        ],
+        [
+          "Cancer",
+          "Xray"
+        ],
+        [
+          "Smoker",
+          "Cancer"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 10,
+        "parametros": 8,
+        "profundidad": 210,
+        "puertas_2q": 240,
+        "puertas_totales": 428
+      }
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 4,
+      "alpha": 0.25,
+      "gap": 0.0,
+      "shd": 1,
+      "fraccion_factible_inicial": 0.200390625,
+      "fraccion_factible_final": 0.477734375,
+      "evaluaciones_medias": 64,
+      "segundos": 2.5134501457214355,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Smoker",
+        "Cancer",
+        "Dyspnoea",
+        "Xray",
+        "Pollution"
+      ],
+      "arcos": [
+        [
+          "Cancer",
+          "Dyspnoea"
+        ],
+        [
+          "Cancer",
+          "Xray"
+        ],
+        [
+          "Smoker",
+          "Cancer"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 10,
+        "parametros": 8,
+        "profundidad": 210,
+        "puertas_2q": 240,
+        "puertas_totales": 428
+      }
+    },
+    {
+      "ansatz": "qaoa",
+      "profundidad": 4,
+      "alpha": 1.0,
+      "gap": 0.0,
+      "shd": 1,
+      "fraccion_factible_inicial": 0.200390625,
+      "fraccion_factible_final": 0.626171875,
+      "evaluaciones_medias": 63,
+      "segundos": 3.5378570556640625,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Smoker",
+        "Cancer",
+        "Dyspnoea",
+        "Xray",
+        "Pollution"
+      ],
+      "arcos": [
+        [
+          "Cancer",
+          "Dyspnoea"
+        ],
+        [
+          "Cancer",
+          "Xray"
+        ],
+        [
+          "Smoker",
+          "Cancer"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 10,
+        "parametros": 8,
+        "profundidad": 210,
+        "puertas_2q": 240,
+        "puertas_totales": 428
+      }
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 1,
+      "alpha": 0.1,
+      "gap": 0.0,
+      "shd": 1,
+      "fraccion_factible_inicial": 0.186328125,
+      "fraccion_factible_final": 0.209375,
+      "evaluaciones_medias": 118,
+      "segundos": 1.7284338474273682,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Smoker",
+        "Cancer",
+        "Dyspnoea",
+        "Pollution",
+        "Xray"
+      ],
+      "arcos": [
+        [
+          "Cancer",
+          "Dyspnoea"
+        ],
+        [
+          "Cancer",
+          "Xray"
+        ],
+        [
+          "Smoker",
+          "Cancer"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 10,
+        "parametros": 20,
+        "profundidad": 13,
+        "puertas_2q": 10,
+        "puertas_totales": 41
+      }
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 1,
+      "alpha": 0.25,
+      "gap": 0.0,
+      "shd": 1,
+      "fraccion_factible_inicial": 0.186328125,
+      "fraccion_factible_final": 0.425,
+      "evaluaciones_medias": 137,
+      "segundos": 2.4957072734832764,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Smoker",
+        "Cancer",
+        "Dyspnoea",
+        "Pollution",
+        "Xray"
+      ],
+      "arcos": [
+        [
+          "Cancer",
+          "Dyspnoea"
+        ],
+        [
+          "Cancer",
+          "Xray"
+        ],
+        [
+          "Smoker",
+          "Cancer"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 10,
+        "parametros": 20,
+        "profundidad": 13,
+        "puertas_2q": 10,
+        "puertas_totales": 41
+      }
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 1,
+      "alpha": 1.0,
+      "gap": 0.0,
+      "shd": 1,
+      "fraccion_factible_inicial": 0.186328125,
+      "fraccion_factible_final": 0.76875,
+      "evaluaciones_medias": 150,
+      "segundos": 2.344146966934204,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Smoker",
+        "Cancer",
+        "Dyspnoea",
+        "Pollution",
+        "Xray"
+      ],
+      "arcos": [
+        [
+          "Cancer",
+          "Dyspnoea"
+        ],
+        [
+          "Cancer",
+          "Xray"
+        ],
+        [
+          "Smoker",
+          "Cancer"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 10,
+        "parametros": 20,
+        "profundidad": 13,
+        "puertas_2q": 10,
+        "puertas_totales": 41
+      }
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 2,
+      "alpha": 0.1,
+      "gap": 0.0,
+      "shd": 1,
+      "fraccion_factible_inicial": 0.129296875,
+      "fraccion_factible_final": 0.1625,
+      "evaluaciones_medias": 144,
+      "segundos": 2.571617841720581,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Smoker",
+        "Cancer",
+        "Dyspnoea",
+        "Xray",
+        "Pollution"
+      ],
+      "arcos": [
+        [
+          "Cancer",
+          "Dyspnoea"
+        ],
+        [
+          "Cancer",
+          "Xray"
+        ],
+        [
+          "Smoker",
+          "Cancer"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 10,
+        "parametros": 30,
+        "profundidad": 24,
+        "puertas_2q": 20,
+        "puertas_totales": 62
+      }
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 2,
+      "alpha": 0.25,
+      "gap": 0.0,
+      "shd": 1,
+      "fraccion_factible_inicial": 0.129296875,
+      "fraccion_factible_final": 0.326953125,
+      "evaluaciones_medias": 150,
+      "segundos": 2.140216827392578,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Smoker",
+        "Cancer",
+        "Dyspnoea",
+        "Xray",
+        "Pollution"
+      ],
+      "arcos": [
+        [
+          "Cancer",
+          "Dyspnoea"
+        ],
+        [
+          "Cancer",
+          "Xray"
+        ],
+        [
+          "Smoker",
+          "Cancer"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 10,
+        "parametros": 30,
+        "profundidad": 24,
+        "puertas_2q": 20,
+        "puertas_totales": 62
+      }
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 2,
+      "alpha": 1.0,
+      "gap": 0.0,
+      "shd": 1,
+      "fraccion_factible_inicial": 0.129296875,
+      "fraccion_factible_final": 0.54375,
+      "evaluaciones_medias": 150,
+      "segundos": 2.0324220657348633,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Smoker",
+        "Cancer",
+        "Dyspnoea",
+        "Xray",
+        "Pollution"
+      ],
+      "arcos": [
+        [
+          "Cancer",
+          "Dyspnoea"
+        ],
+        [
+          "Cancer",
+          "Xray"
+        ],
+        [
+          "Smoker",
+          "Cancer"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 10,
+        "parametros": 30,
+        "profundidad": 24,
+        "puertas_2q": 20,
+        "puertas_totales": 62
+      }
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 4,
+      "alpha": 0.1,
+      "gap": 0.0,
+      "shd": 1,
+      "fraccion_factible_inicial": 0.12578125,
+      "fraccion_factible_final": 0.17421875,
+      "evaluaciones_medias": 150,
+      "segundos": 2.876386880874634,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Smoker",
+        "Cancer",
+        "Dyspnoea",
+        "Xray",
+        "Pollution"
+      ],
+      "arcos": [
+        [
+          "Cancer",
+          "Dyspnoea"
+        ],
+        [
+          "Cancer",
+          "Xray"
+        ],
+        [
+          "Smoker",
+          "Cancer"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 10,
+        "parametros": 50,
+        "profundidad": 46,
+        "puertas_2q": 40,
+        "puertas_totales": 104
+      }
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 4,
+      "alpha": 0.25,
+      "gap": 0.0,
+      "shd": 1,
+      "fraccion_factible_inicial": 0.12578125,
+      "fraccion_factible_final": 0.276171875,
+      "evaluaciones_medias": 150,
+      "segundos": 2.9603238105773926,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Smoker",
+        "Cancer",
+        "Dyspnoea",
+        "Xray",
+        "Pollution"
+      ],
+      "arcos": [
+        [
+          "Cancer",
+          "Dyspnoea"
+        ],
+        [
+          "Cancer",
+          "Xray"
+        ],
+        [
+          "Smoker",
+          "Cancer"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 10,
+        "parametros": 50,
+        "profundidad": 46,
+        "puertas_2q": 40,
+        "puertas_totales": 104
+      }
+    },
+    {
+      "ansatz": "hardware_efficient",
+      "profundidad": 4,
+      "alpha": 1.0,
+      "gap": 0.0,
+      "shd": 1,
+      "fraccion_factible_inicial": 0.12578125,
+      "fraccion_factible_final": 0.26171875,
+      "evaluaciones_medias": 150,
+      "segundos": 3.246493101119995,
+      "exitos": 5,
+      "ejecuciones": 5,
+      "orden": [
+        "Smoker",
+        "Cancer",
+        "Dyspnoea",
+        "Xray",
+        "Pollution"
+      ],
+      "arcos": [
+        [
+          "Cancer",
+          "Dyspnoea"
+        ],
+        [
+          "Cancer",
+          "Xray"
+        ],
+        [
+          "Smoker",
+          "Cancer"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 10,
+        "parametros": 50,
+        "profundidad": 46,
+        "puertas_2q": 40,
+        "puertas_totales": 104
+      }
+    }
+  ]
+}

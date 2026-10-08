@@ -1,0 +1,19 @@
+# Entorno reproducible del proyecto BNSL cuántico.
+#
+# Python 3.11.14 (pyenv).  IMPORTANTE: el `python3` del sistema en este Mac es
+# 3.9.6 y pgmpy >= 1.0 NO funciona sobre él (usa la sintaxis `int | float` de
+# PEP 604, que requiere Python >= 3.10).  Usar siempre el venv:
+#
+#   ~/.pyenv/versions/3.11.14/bin/python -m venv .venv
+#   ./.venv/bin/pip install -r requirements.txt
+#   ./.venv/bin/python -m pytest tests -q
+#
+matplotlib==3.11.2
+networkx==3.6.1
+numpy==2.4.6
+pandas==3.0.5
+pgmpy==1.1.2
+pytest==9.1.1
+qiskit-aer==0.17.2
+qiskit==2.5.2
+scipy==1.17.1

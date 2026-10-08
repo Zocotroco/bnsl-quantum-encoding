@@ -1,0 +1,16 @@
+# entorno
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# credenciales — nunca deben entrar aquí
+# (se guardan en ~/.qiskit/qiskit-ibm.json, fuera del repositorio)
+*.key
+.env
+qiskit-ibm.json
+
+# sistema
+.DS_Store

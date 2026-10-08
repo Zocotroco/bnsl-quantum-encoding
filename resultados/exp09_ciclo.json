@@ -1,0 +1,121 @@
+{
+  "red": "cancer",
+  "qubits_aprendizaje": 8,
+  "arcos_aprendidos": [
+    [
+      "Cancer",
+      "Dyspnoea"
+    ],
+    [
+      "Cancer",
+      "Xray"
+    ],
+    [
+      "Pollution",
+      "Cancer"
+    ],
+    [
+      "Smoker",
+      "Cancer"
+    ]
+  ],
+  "arcos_verdaderos": [
+    [
+      "Pollution",
+      "Cancer"
+    ],
+    [
+      "Smoker",
+      "Cancer"
+    ],
+    [
+      "Cancer",
+      "Xray"
+    ],
+    [
+      "Cancer",
+      "Dyspnoea"
+    ]
+  ],
+  "shd": 0,
+  "gap": 0.0,
+  "circuito_representacion": {
+    "qubits": 5,
+    "profundidad": 87,
+    "puertas_2q": 40
+  },
+  "consultas": [
+    {
+      "consulta": "P(Cancer=1 | Smoker=1, Pollution=1)",
+      "exacta": 0.05709342560553633,
+      "qae": 0.061747087462482544,
+      "error": 0.004653661856946212,
+      "coste": 34816
+    },
+    {
+      "consulta": "P(Cancer=1 | Xray=1)",
+      "exacta": 0.0505176413261753,
+      "qae": 0.05444731713320877,
+      "error": 0.003929675807033475,
+      "coste": 24576
+    },
+    {
+      "consulta": "P(Dyspnoea=1 | Smoker=1)",
+      "exacta": 0.31237537585259456,
+      "qae": 0.31646365104207663,
+      "error": 0.004088275189482071,
+      "coste": 34816
+    },
+    {
+      "consulta": "P(Xray=1 | Smoker=1, Dyspnoea=1)",
+      "exacta": 0.24902592199691959,
+      "qae": 0.24099466210172119,
+      "error": 0.0080312598951984,
+      "coste": 32768
+    }
+  ],
+  "coste": [
+    {
+      "epsilon": 0.02,
+      "coste_qae": 1800,
+      "coste_muestreo": 270,
+      "razon": 0.15,
+      "error_qae": 0.0013319668513087878
+    },
+    {
+      "epsilon": 0.01,
+      "coste_qae": 7900,
+      "coste_muestreo": 1079,
+      "razon": 0.13658227848101265,
+      "error_qae": 0.0003907235713509656
+    },
+    {
+      "epsilon": 0.005,
+      "coste_qae": 7900,
+      "coste_muestreo": 4313,
+      "razon": 0.5459493670886076,
+      "error_qae": 0.000390157597982551
+    },
+    {
+      "epsilon": 0.002,
+      "coste_qae": 39000,
+      "coste_muestreo": 26952,
+      "razon": 0.691076923076923,
+      "error_qae": 0.00010881282970192849
+    },
+    {
+      "epsilon": 0.001,
+      "coste_qae": 39000,
+      "coste_muestreo": 107807,
+      "razon": 2.764282051282051,
+      "error_qae": 0.00010892721454138637
+    },
+    {
+      "epsilon": 0.0005,
+      "coste_qae": 127700,
+      "coste_muestreo": 431225,
+      "razon": 3.3768598277212214,
+      "error_qae": 1.7159071611167614e-05
+    }
+  ]
+}

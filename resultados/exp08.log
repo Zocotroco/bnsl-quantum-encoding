@@ -1,0 +1,27 @@
+espacio de órdenes factorial  n=10  m=2
+  qubits: 25  (torneo: 45, O'Gorman: 135; reducción del 44% sobre el torneo)
+  dígitos: cardinalidades [10, 9, 8, 7, 6, 5, 4, 3, 2] en [4, 4, 3, 3, 3, 3, 2, 2, 1] qubits
+  espacio: 2^25 = 33554432, de los que 3628800 son órdenes válidos (10.8%, frente al 0.0000% del torneo)
+  penalización: 16 términos, grado 4
+
+óptimo exacto: SHD = 0
+distribución sobre 3,628,800 órdenes calculada en 44s
+  órdenes óptimos: 0.0071%   gap mediano: 3567.07
+
+ p  alpha  sem  muestras  válidas   gap VQA  gap azar  P(azar<=)   min
+------------------------------------------------------------------------------
+ 1   0.25    0    34,816   25,772 204777.0437    4.2496     100.0%   2.0
+ 1   0.25    1    36,864   27,756 204777.0437    4.2496     100.0%   2.0
+ 1   0.25    2    31,744   21,576 204777.0437    4.2496     100.0%   1.6
+ 1    1.0    0    34,816   29,954 204777.0437    4.2496     100.0%   1.9
+ 1    1.0    1    37,888   32,856 204777.0437    4.2496     100.0%   2.1
+ 1    1.0    2    32,768   27,776 204777.0437    4.2496     100.0%   1.8
+ 2   0.25    0    34,816   25,772 204777.0437    4.2496     100.0%   2.9
+ 2   0.25    1    40,960   31,160 204781.2933    4.2496     100.0%   3.4
+ 2   0.25    2    40,960   32,000 204777.0437    4.2496     100.0%   3.3
+ 2    1.0    0    39,936   31,239 204777.0437    4.2496     100.0%   3.4
+ 2    1.0    1    40,960   34,600 204781.2933    4.2496     100.0%   3.7
+ 2    1.0    2    40,960   31,720 204777.0437    4.2496     100.0%   3.3
+
+tiradas en las que el VQA mejora el gap típico del azar: 0 de 12
+resultados en ./resultados/exp08_presupuesto_capas10.json

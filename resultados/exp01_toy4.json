@@ -1,0 +1,538 @@
+{
+  "red": "toy4",
+  "n_muestras": 2000,
+  "puntuacion": "bic",
+  "max_padres": 2,
+  "shots": 1024,
+  "maxiter": 150,
+  "semillas": [
+    0,
+    1,
+    2
+  ],
+  "energia_optima": 4408.685473032673,
+  "arcos_optimos": [
+    [
+      "A",
+      "C"
+    ],
+    [
+      "B",
+      "C"
+    ],
+    [
+      "C",
+      "D"
+    ]
+  ],
+  "resultados": [
+    {
+      "p": 1,
+      "alpha": 0.1,
+      "energia": 4408.685473032675,
+      "gap": 1.8189894035458565e-12,
+      "shd": 0,
+      "factible": true,
+      "evaluaciones": 26,
+      "segundos": 1.9564998149871826,
+      "arcos": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 18,
+        "profundidad": 39,
+        "puertas_2q": 72,
+        "puertas_totales": 176,
+        "terminos_ising": 48
+      }
+    },
+    {
+      "p": 1,
+      "alpha": 0.25,
+      "energia": 4412.150024922951,
+      "gap": 3.464551890278017,
+      "shd": 2,
+      "factible": true,
+      "evaluaciones": 27,
+      "segundos": 2.333723783493042,
+      "arcos": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "C"
+        ],
+        [
+          "C",
+          "B"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 18,
+        "profundidad": 39,
+        "puertas_2q": 72,
+        "puertas_totales": 176,
+        "terminos_ising": 48
+      }
+    },
+    {
+      "p": 1,
+      "alpha": 0.5,
+      "energia": 4412.150024922951,
+      "gap": 3.464551890278017,
+      "shd": 1,
+      "factible": true,
+      "evaluaciones": 34,
+      "segundos": 2.7742531299591064,
+      "arcos": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "A"
+        ],
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 18,
+        "profundidad": 39,
+        "puertas_2q": 72,
+        "puertas_totales": 176,
+        "terminos_ising": 48
+      }
+    },
+    {
+      "p": 1,
+      "alpha": 1.0,
+      "energia": 4408.685473032675,
+      "gap": 1.8189894035458565e-12,
+      "shd": 0,
+      "factible": true,
+      "evaluaciones": 31,
+      "segundos": 2.5821940898895264,
+      "arcos": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 18,
+        "profundidad": 39,
+        "puertas_2q": 72,
+        "puertas_totales": 176,
+        "terminos_ising": 48
+      }
+    },
+    {
+      "p": 2,
+      "alpha": 0.1,
+      "energia": 4408.685473032675,
+      "gap": 1.8189894035458565e-12,
+      "shd": 0,
+      "factible": true,
+      "evaluaciones": 38,
+      "segundos": 3.8809919357299805,
+      "arcos": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 18,
+        "profundidad": 76,
+        "puertas_2q": 144,
+        "puertas_totales": 316,
+        "terminos_ising": 48
+      }
+    },
+    {
+      "p": 2,
+      "alpha": 0.25,
+      "energia": 4408.685473032675,
+      "gap": 1.8189894035458565e-12,
+      "shd": 0,
+      "factible": true,
+      "evaluaciones": 45,
+      "segundos": 17.08775806427002,
+      "arcos": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 18,
+        "profundidad": 76,
+        "puertas_2q": 144,
+        "puertas_totales": 316,
+        "terminos_ising": 48
+      }
+    },
+    {
+      "p": 2,
+      "alpha": 0.5,
+      "energia": 4408.685473032675,
+      "gap": 1.8189894035458565e-12,
+      "shd": 0,
+      "factible": true,
+      "evaluaciones": 39,
+      "segundos": 11.276331901550293,
+      "arcos": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 18,
+        "profundidad": 76,
+        "puertas_2q": 144,
+        "puertas_totales": 316,
+        "terminos_ising": 48
+      }
+    },
+    {
+      "p": 2,
+      "alpha": 1.0,
+      "energia": 4408.685473032675,
+      "gap": 1.8189894035458565e-12,
+      "shd": 0,
+      "factible": true,
+      "evaluaciones": 39,
+      "segundos": 8.561148166656494,
+      "arcos": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 18,
+        "profundidad": 76,
+        "puertas_2q": 144,
+        "puertas_totales": 316,
+        "terminos_ising": 48
+      }
+    },
+    {
+      "p": 3,
+      "alpha": 0.1,
+      "energia": 4408.685473032675,
+      "gap": 1.8189894035458565e-12,
+      "shd": 0,
+      "factible": true,
+      "evaluaciones": 52,
+      "segundos": 30.11992311477661,
+      "arcos": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 18,
+        "profundidad": 113,
+        "puertas_2q": 216,
+        "puertas_totales": 456,
+        "terminos_ising": 48
+      }
+    },
+    {
+      "p": 3,
+      "alpha": 0.25,
+      "energia": 4408.685473032675,
+      "gap": 1.8189894035458565e-12,
+      "shd": 0,
+      "factible": true,
+      "evaluaciones": 53,
+      "segundos": 14.109306812286377,
+      "arcos": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 18,
+        "profundidad": 113,
+        "puertas_2q": 216,
+        "puertas_totales": 456,
+        "terminos_ising": 48
+      }
+    },
+    {
+      "p": 3,
+      "alpha": 0.5,
+      "energia": 4408.685473032675,
+      "gap": 1.8189894035458565e-12,
+      "shd": 0,
+      "factible": true,
+      "evaluaciones": 52,
+      "segundos": 14.76616883277893,
+      "arcos": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 18,
+        "profundidad": 113,
+        "puertas_2q": 216,
+        "puertas_totales": 456,
+        "terminos_ising": 48
+      }
+    },
+    {
+      "p": 3,
+      "alpha": 1.0,
+      "energia": 4408.685473032675,
+      "gap": 1.8189894035458565e-12,
+      "shd": 0,
+      "factible": true,
+      "evaluaciones": 56,
+      "segundos": 17.405137062072754,
+      "arcos": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 18,
+        "profundidad": 113,
+        "puertas_2q": 216,
+        "puertas_totales": 456,
+        "terminos_ising": 48
+      }
+    },
+    {
+      "p": 4,
+      "alpha": 0.1,
+      "energia": 4408.685473032675,
+      "gap": 1.8189894035458565e-12,
+      "shd": 0,
+      "factible": true,
+      "evaluaciones": 61,
+      "segundos": 20.327346086502075,
+      "arcos": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 18,
+        "profundidad": 150,
+        "puertas_2q": 288,
+        "puertas_totales": 596,
+        "terminos_ising": 48
+      }
+    },
+    {
+      "p": 4,
+      "alpha": 0.25,
+      "energia": 4408.685473032675,
+      "gap": 1.8189894035458565e-12,
+      "shd": 0,
+      "factible": true,
+      "evaluaciones": 74,
+      "segundos": 44.01181983947754,
+      "arcos": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 18,
+        "profundidad": 150,
+        "puertas_2q": 288,
+        "puertas_totales": 596,
+        "terminos_ising": 48
+      }
+    },
+    {
+      "p": 4,
+      "alpha": 0.5,
+      "energia": 4408.685473032675,
+      "gap": 1.8189894035458565e-12,
+      "shd": 0,
+      "factible": true,
+      "evaluaciones": 62,
+      "segundos": 29.44875693321228,
+      "arcos": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 18,
+        "profundidad": 150,
+        "puertas_2q": 288,
+        "puertas_totales": 596,
+        "terminos_ising": 48
+      }
+    },
+    {
+      "p": 4,
+      "alpha": 1.0,
+      "energia": 4412.150024922951,
+      "gap": 3.464551890278017,
+      "shd": 2,
+      "factible": true,
+      "evaluaciones": 58,
+      "segundos": 19.83344292640686,
+      "arcos": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "C"
+        ],
+        [
+          "C",
+          "B"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "stats_circuito": {
+        "qubits": 18,
+        "profundidad": 150,
+        "puertas_2q": 288,
+        "puertas_totales": 596,
+        "terminos_ising": 48
+      }
+    }
+  ]
+}

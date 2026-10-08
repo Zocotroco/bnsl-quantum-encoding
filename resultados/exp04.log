@@ -1,0 +1,59 @@
+toy4: óptimo exacto = [('A', 'C'), ('B', 'C'), ('C', 'D')]
+
+líneas base de azar --- órdenes: 37.5%   adyacencia: 10.8%
+
+buscando parámetros sobre 8 semillas:
+  órdenes      coste=4408.6855  P(óptimo)=9.0%
+  adyacencia   coste=4408.6855  P(óptimo)=1.4%
+
+puertas --- órdenes: {'1q': 42, '2q': 48, 'profundidad': 64}  adyacencia: {'1q': 150, '2q': 144, 'profundidad': 76}
+
+midiendo degradación (los parámetros ya no cambian):
+
+  órdenes     amplitude_damping  ω=0       factible= 93.0% (  2.5x azar)  óptimo= 8.59%
+  órdenes     amplitude_damping  ω=0.001   factible= 96.2% (  2.6x azar)  óptimo= 7.81%
+  órdenes     amplitude_damping  ω=0.003   factible= 95.4% (  2.5x azar)  óptimo= 8.20%
+  órdenes     amplitude_damping  ω=0.01    factible= 86.7% (  2.3x azar)  óptimo= 6.64%
+  órdenes     amplitude_damping  ω=0.03    factible= 69.8% (  1.9x azar)  óptimo= 5.08%
+  órdenes     amplitude_damping  ω=0.1     factible= 57.2% (  1.5x azar)  óptimo= 3.12%
+  órdenes     phase_damping      ω=0       factible= 93.0% (  2.5x azar)  óptimo= 8.59%
+  órdenes     phase_damping      ω=0.001   factible= 96.6% (  2.6x azar)  óptimo= 7.81%
+  órdenes     phase_damping      ω=0.003   factible= 95.4% (  2.5x azar)  óptimo= 7.81%
+  órdenes     phase_damping      ω=0.01    factible= 93.5% (  2.5x azar)  óptimo= 7.42%
+  órdenes     phase_damping      ω=0.03    factible= 84.5% (  2.3x azar)  óptimo= 7.03%
+  órdenes     phase_damping      ω=0.1     factible= 65.4% (  1.7x azar)  óptimo= 4.30%
+  órdenes     depolarizing       ω=0       factible= 93.0% (  2.5x azar)  óptimo= 8.59%
+  órdenes     depolarizing       ω=0.001   factible= 93.8% (  2.5x azar)  óptimo= 8.98%
+  órdenes     depolarizing       ω=0.003   factible= 88.0% (  2.3x azar)  óptimo= 8.59%
+  órdenes     depolarizing       ω=0.01    factible= 73.4% (  2.0x azar)  óptimo= 5.08%
+  órdenes     depolarizing       ω=0.03    factible= 53.1% (  1.4x azar)  óptimo= 4.30%
+  órdenes     depolarizing       ω=0.1     factible= 41.3% (  1.1x azar)  óptimo= 1.95%
+
+  adyacencia  amplitude_damping  ω=0       factible= 25.0% (  2.3x azar)  óptimo= 0.39%
+  adyacencia  amplitude_damping  ω=0.001   factible= 20.3% (  1.9x azar)  óptimo= 1.17%
+  adyacencia  amplitude_damping  ω=0.003   factible= 21.1% (  2.0x azar)  óptimo= 0.78%
+  adyacencia  amplitude_damping  ω=0.01    factible= 26.6% (  2.5x azar)  óptimo= 0.39%
+  adyacencia  amplitude_damping  ω=0.03    factible= 34.8% (  3.2x azar)  óptimo= 1.56%
+  adyacencia  amplitude_damping  ω=0.1     factible= 57.2% (  5.3x azar)  óptimo= 0.00%
+  adyacencia  phase_damping      ω=0       factible= 25.0% (  2.3x azar)  óptimo= 0.39%
+  adyacencia  phase_damping      ω=0.001   factible= 19.9% (  1.8x azar)  óptimo= 0.39%
+  adyacencia  phase_damping      ω=0.003   factible= 19.9% (  1.8x azar)  óptimo= 0.39%
+  adyacencia  phase_damping      ω=0.01    factible= 19.8% (  1.8x azar)  óptimo= 0.39%
+  adyacencia  phase_damping      ω=0.03    factible= 18.1% (  1.7x azar)  óptimo= 0.39%
+  adyacencia  phase_damping      ω=0.1     factible= 19.5% (  1.8x azar)  óptimo= 0.39%
+  adyacencia  depolarizing       ω=0       factible= 25.0% (  2.3x azar)  óptimo= 0.39%
+  adyacencia  depolarizing       ω=0.001   factible= 18.1% (  1.7x azar)  óptimo= 0.78%
+  adyacencia  depolarizing       ω=0.003   factible= 20.4% (  1.9x azar)  óptimo= 1.56%
+  adyacencia  depolarizing       ω=0.01    factible= 21.1% (  2.0x azar)  óptimo= 0.78%
+  adyacencia  depolarizing       ω=0.03    factible= 19.0% (  1.8x azar)  óptimo= 0.78%
+  adyacencia  depolarizing       ω=0.1     factible= 14.5% (  1.3x azar)  óptimo= 0.39%
+
+degradación relativa al propio ω=0:
+  órdenes     amplitude_damping  ω=0:100%  ω=0.001:104%  ω=0.003:103%  ω=0.01:93%  ω=0.03:75%  ω=0.1:61%
+  órdenes     phase_damping      ω=0:100%  ω=0.001:104%  ω=0.003:103%  ω=0.01:101%  ω=0.03:91%  ω=0.1:70%
+  órdenes     depolarizing       ω=0:100%  ω=0.001:101%  ω=0.003:95%  ω=0.01:79%  ω=0.03:57%  ω=0.1:44%
+  adyacencia  amplitude_damping  ω=0:100%  ω=0.001:81%  ω=0.003:84%  ω=0.01:106%  ω=0.03:139%  ω=0.1:229%
+  adyacencia  phase_damping      ω=0:100%  ω=0.001:80%  ω=0.003:80%  ω=0.01:79%  ω=0.03:72%  ω=0.1:78%
+  adyacencia  depolarizing       ω=0:100%  ω=0.001:72%  ω=0.003:82%  ω=0.01:84%  ω=0.03:76%  ω=0.1:58%
+
+completado en 2851 s; resultados en ./resultados/exp04_ruido.json

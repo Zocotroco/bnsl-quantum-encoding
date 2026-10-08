@@ -1,0 +1,34 @@
+=== preparación en simulación (sin coste de QPU) ===
+  (reutilizando parámetros de exp07_parametros.json)
+  asia_factorial       en caché: factible=80.9%
+  capas10_factorial    en caché: factible=75.3%
+  asia_torneo          en caché: factible=n/d
+elegido ibm_marrakesh (156 qubits, cola: 1)
+
+=== HARDWARE REAL: ibm_marrakesh (156 qubits) ===
+
+  asia_factorial: 156 qubits usados, profundidad 49, 28 puertas de dos cúbits
+    trabajo dar5oiqhcrkc73dr5q9g enviado...
+    QPU consumido: 2.7 s  (acumulado 2.7 s de 600)
+    factible 75.39% (ideal: 80.9%)   gap 0.0   SHD 2
+
+  capas10_factorial: 156 qubits usados, profundidad 105, 67 puertas de dos cúbits
+    trabajo dar5ph3ojkfs738nlf4g enviado...
+    QPU consumido: 2.6 s  (acumulado 5.3 s de 600)
+    factible 72.27% (ideal: 75.3%)   gap 4.84   SHD 2
+
+  asia_torneo: 156 qubits usados, profundidad 911, 1001 puertas de dos cúbits
+    trabajo dar5polvr3kc73eiehng enviado...
+    QPU consumido: 3.4 s  (acumulado 8.7 s de 600)
+    factible 0.00% (ideal: n/d)   gap None   SHD None
+
+resultado principal guardado en ./resultados/exp07_hardware_real.json
+
+=== réplica en regiones disjuntas (asia_factorial) ===
+    4 copias: 68 qubits lógicos, profundidad 49
+    trabajo dar5qdrg95ks73eds7f0 enviado...
+      copia 0: factible 74.39%   gap 0.0
+      copia 1: factible 72.63%   gap 0.0
+      copia 2: factible 69.38%   gap 0.0
+      copia 3: factible 67.58%   gap 0.0
+resultados completos en ./resultados/exp07_hardware_real.json

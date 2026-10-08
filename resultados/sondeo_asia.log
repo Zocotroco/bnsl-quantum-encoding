@@ -1,0 +1,9 @@
+método: statevector | línea base de azar: 0.0150%
+  gamma=0.1  beta=0.4  factible=  0.00%  (      0x el azar)  [60s]
+  gamma=0.1  beta=0.8  factible=  0.00%  (      0x el azar)  [108s]
+  gamma=0.5  beta=0.4  factible=  0.00%  (      0x el azar)  [73s]
+  gamma=0.5  beta=0.8  factible=  1.86%  (    124x el azar)  [81s]
+  gamma=1.0  beta=0.4  factible=  0.00%  (      0x el azar)  [74s]
+  gamma=1.0  beta=0.8  factible=  3.12%  (    208x el azar)  [95s]
+  gamma=2.0  beta=0.4  factible=  0.00%  (      0x el azar)  [96s]
+  gamma=2.0  beta=0.8  factible=  0.20%  (     13x el azar)  [60s]

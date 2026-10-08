@@ -1,0 +1,372 @@
+{
+  "red": "toy4",
+  "profundidad": 2,
+  "shots": 256,
+  "semillas_ruido": [
+    0,
+    1,
+    2
+  ],
+  "semillas_busqueda": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "omegas": [
+    0.0,
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1
+  ],
+  "qubits_ordenes": 6,
+  "qubits_adyacencia": 18,
+  "base_azar_ordenes": 0.375,
+  "base_azar_adyacencia": 0.108154296875,
+  "arcos_optimos": [
+    [
+      "A",
+      "C"
+    ],
+    [
+      "B",
+      "C"
+    ],
+    [
+      "C",
+      "D"
+    ]
+  ],
+  "resultados": [
+    {
+      "codificacion": "órdenes",
+      "canal": "amplitude_damping",
+      "omega": 0.0,
+      "fraccion_factible": 0.9296875,
+      "prob_optimo": 0.0859375,
+      "factible_sobre_azar": 2.4791666666666665,
+      "factible_relativa": 1.0
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "amplitude_damping",
+      "omega": 0.001,
+      "fraccion_factible": 0.9622395833333334,
+      "prob_optimo": 0.078125,
+      "factible_sobre_azar": 2.5659722222222223,
+      "factible_relativa": 1.035014005602241
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "amplitude_damping",
+      "omega": 0.003,
+      "fraccion_factible": 0.9544270833333334,
+      "prob_optimo": 0.08203125,
+      "factible_sobre_azar": 2.545138888888889,
+      "factible_relativa": 1.0266106442577032
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "amplitude_damping",
+      "omega": 0.01,
+      "fraccion_factible": 0.8671875,
+      "prob_optimo": 0.06640625,
+      "factible_sobre_azar": 2.3125,
+      "factible_relativa": 0.9327731092436975
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "amplitude_damping",
+      "omega": 0.03,
+      "fraccion_factible": 0.6979166666666666,
+      "prob_optimo": 0.05078125,
+      "factible_sobre_azar": 1.861111111111111,
+      "factible_relativa": 0.7507002801120448
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "amplitude_damping",
+      "omega": 0.1,
+      "fraccion_factible": 0.5716145833333334,
+      "prob_optimo": 0.03125,
+      "factible_sobre_azar": 1.5243055555555556,
+      "factible_relativa": 0.6148459383753502
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "phase_damping",
+      "omega": 0.0,
+      "fraccion_factible": 0.9296875,
+      "prob_optimo": 0.0859375,
+      "factible_sobre_azar": 2.4791666666666665,
+      "factible_relativa": 1.0
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "phase_damping",
+      "omega": 0.001,
+      "fraccion_factible": 0.9661458333333334,
+      "prob_optimo": 0.078125,
+      "factible_sobre_azar": 2.576388888888889,
+      "factible_relativa": 1.0392156862745099
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "phase_damping",
+      "omega": 0.003,
+      "fraccion_factible": 0.9544270833333334,
+      "prob_optimo": 0.078125,
+      "factible_sobre_azar": 2.545138888888889,
+      "factible_relativa": 1.0266106442577032
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "phase_damping",
+      "omega": 0.01,
+      "fraccion_factible": 0.9348958333333334,
+      "prob_optimo": 0.07421875,
+      "factible_sobre_azar": 2.493055555555556,
+      "factible_relativa": 1.0056022408963585
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "phase_damping",
+      "omega": 0.03,
+      "fraccion_factible": 0.8450520833333334,
+      "prob_optimo": 0.0703125,
+      "factible_sobre_azar": 2.2534722222222223,
+      "factible_relativa": 0.9089635854341737
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "phase_damping",
+      "omega": 0.1,
+      "fraccion_factible": 0.6536458333333334,
+      "prob_optimo": 0.04296875,
+      "factible_sobre_azar": 1.7430555555555556,
+      "factible_relativa": 0.7030812324929973
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "depolarizing",
+      "omega": 0.0,
+      "fraccion_factible": 0.9296875,
+      "prob_optimo": 0.0859375,
+      "factible_sobre_azar": 2.4791666666666665,
+      "factible_relativa": 1.0
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "depolarizing",
+      "omega": 0.001,
+      "fraccion_factible": 0.9375,
+      "prob_optimo": 0.08984375,
+      "factible_sobre_azar": 2.5,
+      "factible_relativa": 1.0084033613445378
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "depolarizing",
+      "omega": 0.003,
+      "fraccion_factible": 0.8802083333333334,
+      "prob_optimo": 0.0859375,
+      "factible_sobre_azar": 2.3472222222222223,
+      "factible_relativa": 0.9467787114845939
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "depolarizing",
+      "omega": 0.01,
+      "fraccion_factible": 0.734375,
+      "prob_optimo": 0.05078125,
+      "factible_sobre_azar": 1.9583333333333333,
+      "factible_relativa": 0.7899159663865546
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "depolarizing",
+      "omega": 0.03,
+      "fraccion_factible": 0.53125,
+      "prob_optimo": 0.04296875,
+      "factible_sobre_azar": 1.4166666666666667,
+      "factible_relativa": 0.5714285714285714
+    },
+    {
+      "codificacion": "órdenes",
+      "canal": "depolarizing",
+      "omega": 0.1,
+      "fraccion_factible": 0.4127604166666667,
+      "prob_optimo": 0.01953125,
+      "factible_sobre_azar": 1.1006944444444444,
+      "factible_relativa": 0.4439775910364146
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "amplitude_damping",
+      "omega": 0.0,
+      "fraccion_factible": 0.25,
+      "prob_optimo": 0.00390625,
+      "factible_sobre_azar": 2.311512415349887,
+      "factible_relativa": 1.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "amplitude_damping",
+      "omega": 0.001,
+      "fraccion_factible": 0.203125,
+      "prob_optimo": 0.01171875,
+      "factible_sobre_azar": 1.8781038374717833,
+      "factible_relativa": 0.8125
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "amplitude_damping",
+      "omega": 0.003,
+      "fraccion_factible": 0.2109375,
+      "prob_optimo": 0.0078125,
+      "factible_sobre_azar": 1.9503386004514673,
+      "factible_relativa": 0.84375
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "amplitude_damping",
+      "omega": 0.01,
+      "fraccion_factible": 0.265625,
+      "prob_optimo": 0.00390625,
+      "factible_sobre_azar": 2.455981941309255,
+      "factible_relativa": 1.0625
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "amplitude_damping",
+      "omega": 0.03,
+      "fraccion_factible": 0.34765625,
+      "prob_optimo": 0.015625,
+      "factible_sobre_azar": 3.214446952595937,
+      "factible_relativa": 1.390625
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "amplitude_damping",
+      "omega": 0.1,
+      "fraccion_factible": 0.5716145833333334,
+      "prob_optimo": 0.0,
+      "factible_sobre_azar": 5.285176824680211,
+      "factible_relativa": 2.2864583333333335
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "phase_damping",
+      "omega": 0.0,
+      "fraccion_factible": 0.25,
+      "prob_optimo": 0.00390625,
+      "factible_sobre_azar": 2.311512415349887,
+      "factible_relativa": 1.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "phase_damping",
+      "omega": 0.001,
+      "fraccion_factible": 0.19921875,
+      "prob_optimo": 0.00390625,
+      "factible_sobre_azar": 1.8419864559819412,
+      "factible_relativa": 0.796875
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "phase_damping",
+      "omega": 0.003,
+      "fraccion_factible": 0.19921875,
+      "prob_optimo": 0.00390625,
+      "factible_sobre_azar": 1.8419864559819412,
+      "factible_relativa": 0.796875
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "phase_damping",
+      "omega": 0.01,
+      "fraccion_factible": 0.19791666666666666,
+      "prob_optimo": 0.00390625,
+      "factible_sobre_azar": 1.8299473288186605,
+      "factible_relativa": 0.7916666666666666
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "phase_damping",
+      "omega": 0.03,
+      "fraccion_factible": 0.18098958333333334,
+      "prob_optimo": 0.00390625,
+      "factible_sobre_azar": 1.6734386756960122,
+      "factible_relativa": 0.7239583333333334
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "phase_damping",
+      "omega": 0.1,
+      "fraccion_factible": 0.1953125,
+      "prob_optimo": 0.00390625,
+      "factible_sobre_azar": 1.8058690744920993,
+      "factible_relativa": 0.78125
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "depolarizing",
+      "omega": 0.0,
+      "fraccion_factible": 0.25,
+      "prob_optimo": 0.00390625,
+      "factible_sobre_azar": 2.311512415349887,
+      "factible_relativa": 1.0
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "depolarizing",
+      "omega": 0.001,
+      "fraccion_factible": 0.18098958333333334,
+      "prob_optimo": 0.0078125,
+      "factible_sobre_azar": 1.6734386756960122,
+      "factible_relativa": 0.7239583333333334
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "depolarizing",
+      "omega": 0.003,
+      "fraccion_factible": 0.20442708333333334,
+      "prob_optimo": 0.015625,
+      "factible_sobre_azar": 1.890142964635064,
+      "factible_relativa": 0.8177083333333334
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "depolarizing",
+      "omega": 0.01,
+      "fraccion_factible": 0.2109375,
+      "prob_optimo": 0.0078125,
+      "factible_sobre_azar": 1.9503386004514673,
+      "factible_relativa": 0.84375
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "depolarizing",
+      "omega": 0.03,
+      "fraccion_factible": 0.19010416666666666,
+      "prob_optimo": 0.0078125,
+      "factible_sobre_azar": 1.7577125658389765,
+      "factible_relativa": 0.7604166666666666
+    },
+    {
+      "codificacion": "adyacencia",
+      "canal": "depolarizing",
+      "omega": 0.1,
+      "fraccion_factible": 0.14453125,
+      "prob_optimo": 0.00390625,
+      "factible_sobre_azar": 1.3363431151241536,
+      "factible_relativa": 0.578125
+    }
+  ]
+}

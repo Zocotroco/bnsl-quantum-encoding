@@ -1,0 +1,26 @@
+PASO 1 — aprendizaje de la estructura
+  qubits: 8   gap: 0.0000   SHD: 0
+  arcos aprendidos: [('Cancer', 'Dyspnoea'), ('Cancer', 'Xray'), ('Pollution', 'Cancer'), ('Smoker', 'Cancer')]
+
+PASO 2 — ajuste de parámetros a partir de los datos (Laplace)
+
+PASO 3 — circuito de la red aprendida: {'qubits': 5, 'profundidad': 87, 'puertas_2q': 40}
+
+PASO 4 — inferencia sobre el circuito
+  consulta                                      exacta       QAE     error
+  P(Cancer=1 | Smoker=1, Pollution=1)          0.05709   0.06175   0.00465
+  P(Cancer=1 | Xray=1)                         0.05052   0.05445   0.00393
+  P(Dyspnoea=1 | Smoker=1)                     0.31238   0.31646   0.00409
+  P(Xray=1 | Smoker=1, Dyspnoea=1)             0.24903   0.24099   0.00803
+
+PASO 5 — coste de QAE frente a muestreo, a 95 % de confianza
+  estimando P{'Smoker': 1, 'Pollution': 1} = 0.02890
+    epsilon   QAE (aplic. de A)   muestreo (disparos)    razón
+       0.02               1,800                   270    0.15x   [0s]
+       0.01               7,900                 1,079    0.14x   [1s]
+      0.005               7,900                 4,313    0.55x   [1s]
+      0.002              39,000                26,952    0.69x   [4s]
+      0.001              39,000               107,807    2.76x  <- gana QAE   [4s]
+     0.0005             127,700               431,225    3.38x  <- gana QAE   [13s]
+
+resultados en ./resultados/exp09_ciclo.json
